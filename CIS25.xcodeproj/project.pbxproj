@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E69F25C2C8E2F7C00625669 /* assignment_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E69F2542C88DCE800625669 /* assignment_1.cpp */; };
+		2E69F2702C8E3D3900625669 /* assignment_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E69F26E2C8E3D3900625669 /* assignment_1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,8 @@
 
 /* Begin PBXFileReference section */
 		2E69F2402C86F29C00625669 /* CIS25 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CIS25; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E69F2522C88DA5E00625669 /* example1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = example1.cpp; path = CIS25.cpp/example1.cpp; sourceTree = "<group>"; };
-		2E69F2532C88DA5E00625669 /* example1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = example1.hpp; path = CIS25.cpp/example1.hpp; sourceTree = "<group>"; };
-		2E69F2542C88DCE800625669 /* assignment_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = assignment_1.cpp; path = CIS25.cpp/assignment_1.cpp; sourceTree = "<group>"; };
-		2E69F2552C88DCE800625669 /* assignment_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = assignment_1.hpp; path = CIS25.cpp/assignment_1.hpp; sourceTree = "<group>"; };
+		2E69F26E2C8E3D3900625669 /* assignment_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = assignment_1.cpp; sourceTree = "<group>"; };
+		2E69F26F2C8E3D3900625669 /* assignment_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = assignment_1.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +42,7 @@
 		2E69F2372C86F29C00625669 = {
 			isa = PBXGroup;
 			children = (
-				2E69F2522C88DA5E00625669 /* example1.cpp */,
-				2E69F2532C88DA5E00625669 /* example1.hpp */,
-				2E69F2562C88DE9900625669 /* CIS25 */,
+				2E69F26D2C8E3D2500625669 /* class_activity_1 */,
 				2E69F2412C86F29C00625669 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,13 +55,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E69F2562C88DE9900625669 /* CIS25 */ = {
+		2E69F26D2C8E3D2500625669 /* class_activity_1 */ = {
 			isa = PBXGroup;
 			children = (
-				2E69F2542C88DCE800625669 /* assignment_1.cpp */,
-				2E69F2552C88DCE800625669 /* assignment_1.hpp */,
+				2E69F26E2C8E3D3900625669 /* assignment_1.cpp */,
+				2E69F26F2C8E3D3900625669 /* assignment_1.hpp */,
 			);
-			name = CIS25;
+			path = class_activity_1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E69F25C2C8E2F7C00625669 /* assignment_1.cpp in Sources */,
+				2E69F2702C8E3D3900625669 /* assignment_1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
