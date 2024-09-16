@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E69F2852C97EDD500625669 /* assignment_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E69F2842C97EDD500625669 /* assignment_5.cpp */; };
+		2E69F2882C97EFD000625669 /* assignment_6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E69F2872C97EFD000625669 /* assignment_6.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +34,7 @@
 		2E69F27E2C97DE6700625669 /* assignment_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = assignment_3.cpp; sourceTree = "<group>"; };
 		2E69F2812C97E9D100625669 /* assignment_4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = assignment_4.cpp; sourceTree = "<group>"; };
 		2E69F2842C97EDD500625669 /* assignment_5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = assignment_5.cpp; sourceTree = "<group>"; };
+		2E69F2872C97EFD000625669 /* assignment_6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = assignment_6.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,7 @@
 		2E69F2372C86F29C00625669 = {
 			isa = PBXGroup;
 			children = (
+				2E69F2862C97EFBF00625669 /* class_activity_6 */,
 				2E69F2832C97EDBD00625669 /* class_activity_5 */,
 				2E69F2802C97E9B400625669 /* class_activity_4 */,
 				2E69F27D2C97DE4400625669 /* class_activity_3 */,
@@ -120,6 +122,14 @@
 			path = class_activity_5;
 			sourceTree = "<group>";
 		};
+		2E69F2862C97EFBF00625669 /* class_activity_6 */ = {
+			isa = PBXGroup;
+			children = (
+				2E69F2872C97EFD000625669 /* assignment_6.cpp */,
+			);
+			path = class_activity_6;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,7 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E69F2852C97EDD500625669 /* assignment_5.cpp in Sources */,
+				2E69F2882C97EFD000625669 /* assignment_6.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
