@@ -5,7 +5,7 @@
 //  Created by Minh Tran on 9/15/24.
 //
 
-#include "09.hpp"
+
 #include <iostream>
 #include <cstdlib>
 #include <iomanip>
