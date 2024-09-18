@@ -6,3 +6,22 @@
 //
 
 #include <stdio.h>
+#include <iostream>
+using namespace std;
+
+int main(){
+    int positiveNumber;
+    int fact = 1;
+    
+    cout << "Enter a postive number" << endl;
+    cin >> positiveNumber;
+
+    
+    for (int i = 1; i <= positiveNumber; i++)
+        fact = fact * i;
+
+    cout << "The factorial of the positive number is: " << fact << endl;
+
+    return 0;
+    
+}
