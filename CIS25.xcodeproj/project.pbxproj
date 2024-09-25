@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E69F2AE2CA1595800625669 /* hw_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E69F2AD2CA1595800625669 /* hw_1.cpp */; };
+		2E69F2B42CA3F78100625669 /* assignment_15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E69F2B32CA3F78100625669 /* assignment_15.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +49,8 @@
 		2E69F2AA2C9AA60200625669 /* lecture_sept_18.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lecture_sept_18.cpp; sourceTree = "<group>"; };
 		2E69F2AD2CA1595800625669 /* hw_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hw_1.cpp; sourceTree = "<group>"; };
 		2E69F2AF2CA1598E00625669 /* lecture_sept_23.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lecture_sept_23.cpp; sourceTree = "<group>"; };
+		2E69F2B32CA3F78100625669 /* assignment_15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = assignment_15.cpp; sourceTree = "<group>"; };
+		2E69F2B52CA3F7AD00625669 /* lecture_sept_25.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lecture_sept_25.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		2E69F2372C86F29C00625669 = {
 			isa = PBXGroup;
 			children = (
+				2E69F2B22CA3F76900625669 /* class_activity_15 */,
 				2E69F2AC2CA1593300625669 /* homework_1 */,
 				2E69F2A72C9A9A7F00625669 /* class_activity_14 */,
 				2E69F2A42C9A978A00625669 /* class_activity_13 */,
@@ -122,6 +125,7 @@
 				2E69F29C2C989B0800625669 /* lecture_sept_16.cpp */,
 				2E69F2AA2C9AA60200625669 /* lecture_sept_18.cpp */,
 				2E69F2AF2CA1598E00625669 /* lecture_sept_23.cpp */,
+				2E69F2B52CA3F7AD00625669 /* lecture_sept_25.cpp */,
 			);
 			path = work_space;
 			sourceTree = "<group>";
@@ -230,6 +234,14 @@
 			path = homework_1;
 			sourceTree = "<group>";
 		};
+		2E69F2B22CA3F76900625669 /* class_activity_15 */ = {
+			isa = PBXGroup;
+			children = (
+				2E69F2B32CA3F78100625669 /* assignment_15.cpp */,
+			);
+			path = class_activity_15;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -287,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E69F2AE2CA1595800625669 /* hw_1.cpp in Sources */,
+				2E69F2B42CA3F78100625669 /* assignment_15.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
