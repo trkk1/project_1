@@ -7,7 +7,17 @@
 
 #ifndef lecture_oct_2_hpp
 #define lecture_oct_2_hpp
-
 #include <stdio.h>
+using namespace std;
+
+
+namespace messaging {
+void greet(string name){
+    cout << "hi " << name;
+}
+}
+
+
+
 
 #endif /* lecture_oct_2_hpp */
