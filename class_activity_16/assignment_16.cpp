@@ -9,34 +9,35 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+using namespace std;
 
 // Function to sort students
-void sortStudents(std::vector<std::string>& students, std::vector<int>& grades) {
+void sortStudents(vector<string> & students, vector<int>& grades) {
     for (size_t i = 0; i < students.size(); ++i) {
         for (size_t j = i + 1; j < students.size(); ++j) {
             if (students[i] > students[j]) {
-                std::swap(students[i], students[j]);
-                std::swap(grades[i], grades[j]);  // Swap grades as well
+                swap(students[i], students[j]);
+                swap(grades[i], grades[j]);  // Swap grades as well
             }
         }
     }
 }
 
 // Function to sort grades
-void sortGrades(std::vector<int>& grades, std::vector<std::string>& students) {
+void sortGrades(vector<int>& grades, vector<string> & students) {
     for (size_t i = 0; i < grades.size(); ++i) {
         for (size_t j = i + 1; j < grades.size(); ++j) {
             if (grades[i] > grades[j]) {
-                std::swap(grades[i], grades[j]);
-                std::swap(students[i], students[j]);  // Swap names as well
+                swap(grades[i], grades[j]);
+                swap(students[i], students[j]);  // Swap names as well
             }
         }
     }
 }
 
 int main() {
-    std::vector<std::string> students = {"Alice", "Bob", "Charlie", "David", "Eve"};
-    std::vector<int> grades = {85, 92, 78, 90, 88};
+    vector<string> students = {"Alice", "Bob", "Charlie", "David", "Eve"};
+    vector<int> grades = {85, 92, 78, 90, 88};
     
     // Sort students and grades
     sortStudents(students, grades);
@@ -56,14 +57,14 @@ int main() {
     double average = sum / grades.size();
 
     // Output results
-    std::cout << "Average grade: " << average << std::endl;
-    std::cout << "Highest grade: " << highest << std::endl;
-    std::cout << "Lowest grade: " << lowest << std::endl;
-    std::cout << "Students above average:" << std::endl;
+    cout << "Average grade: " << average << endl;
+    cout << "Highest grade: " << highest << endl;
+    cout << "Lowest grade: " << lowest << endl;
+    cout << "Students above average:" << endl;
 
     for (size_t i = 0; i < grades.size(); i++) {
         if (grades[i] > average) {
-            std::cout << students[i] << std::endl;
+            cout << students[i] << endl;
         }
     }
 
