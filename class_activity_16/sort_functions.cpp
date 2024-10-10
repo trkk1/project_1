@@ -1,26 +1,25 @@
 //
-//  sort_grades.cpp
+//  sort_functions.cpp
 //  CIS25
 //
 //  Created by Minh Tran on 10/7/24.
 //
 
-#include "sort_grades.hpp"
-#include <stdio.h>
-#include <iostream>
-#include <string>
-#include <vector>
+#include "grades_analysis.hpp"
 #include <algorithm>
+#include <vector>
+#include <iostream>
+using namespace std;
 
-namespace gradesAnalysis{
-void sortGrades(vector<int>& grades, vector<string> & students) {
-    for (size_t i = 0; i < grades.size(); ++i) {
-        for (size_t j = i + 1; j < grades.size(); ++j) {
-            if (grades[i] > grades[j]) {
-                swap(grades[i], grades[j]);
-                swap(students[i], students[j]);  // Swap names as well
+namespace gradesAnalysis {
+    void sortStudentsAndGrades(vector<string>& students, vector<int>& grades) {
+        for (size_t i = 0; i < grades.size(); ++i) {
+            for (size_t j = 0; j < grades.size() - 1; ++j) {
+                if (grades[j] > grades[j + 1]) {
+                    swap(grades[j], grades[j + 1]);
+                    swap(students[j], students[j + 1]);
+                }
             }
         }
     }
-}
 }

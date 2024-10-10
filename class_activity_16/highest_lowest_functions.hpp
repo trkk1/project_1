@@ -7,7 +7,12 @@
 
 #ifndef highest_lowest_functions_hpp
 #define highest_lowest_functions_hpp
-
 #include <stdio.h>
+#include <vector>
+using namespace std;
+
+namespace gradesAnalysis {
+    void findHighestAndLowest(const vector<int>& grades, int& highest, int& lowest);
+}
 
 #endif /* highest_lowest_functions_hpp */

@@ -9,5 +9,12 @@
 #define average_functions_hpp
 
 #include <stdio.h>
+#include <iostream>
+#include <vector>
+using namespace std;
+
+namespace gradesAnalysis {
+    double calculateAverage(const vector<int>& grades);
+}
 
 #endif /* average_functions_hpp */

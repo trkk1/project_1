@@ -1,13 +1,20 @@
 //
-//  sort_students.hpp
+//  average_functions.hpp
 //  CIS25
 //
 //  Created by Minh Tran on 10/7/24.
 //
 
-#ifndef sort_students_hpp
-#define sort_students_hpp
+#ifndef AVERAGE_FUNCTIONS_H
+#define AVERAGE_FUNCTIONS_H
 
-#include <stdio.h>
+#include <vector>
 
-#endif /* sort_students_hpp */
+namespace gradesAnalysis {
+    double calculateAverage(const std::vector<int>& grades);
+}
+
+#endif // AVERAGE_FUNCTIONS_H
+
+
+

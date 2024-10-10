@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E69F2CC2CB4480900625669 /* assignment_16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E69F2CB2CB4480900625669 /* assignment_16.cpp */; };
+		2E69F2F82CB85ED400625669 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E69F2CB2CB4480900625669 /* main.cpp */; };
+		2E69F2F92CB85EDB00625669 /* sort_functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E69F2DD2CB45BCB00625669 /* sort_functions.cpp */; };
+		2E69F2FA2CB85EDE00625669 /* average_functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E69F2E22CB4B4F300625669 /* average_functions.cpp */; };
+		2E69F2FB2CB85EE100625669 /* highest_lowest_functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E69F2E52CB4B57700625669 /* highest_lowest_functions.cpp */; };
+		2E69F2FC2CB85EE400625669 /* print_functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E69F2E82CB4B5A600625669 /* print_functions.cpp */; };
+		2E69F2FD2CB85EE700625669 /* grades_analysis.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E69F2F12CB75AF200625669 /* grades_analysis.hpp */; };
+		2E69F2FF2CB85FB800625669 /* compare_functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E69F2FE2CB85FB800625669 /* compare_functions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,7 +60,17 @@
 		2E69F2B92CAC9DE700625669 /* theater.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = theater.cpp; sourceTree = "<group>"; };
 		2E69F2BB2CADB24D00625669 /* lecture_oct_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lecture_oct_2.cpp; sourceTree = "<group>"; };
 		2E69F2C72CB446A400625669 /* lecture_oct_7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lecture_oct_7.cpp; sourceTree = "<group>"; };
-		2E69F2CB2CB4480900625669 /* assignment_16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = assignment_16.cpp; sourceTree = "<group>"; };
+		2E69F2CB2CB4480900625669 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2E69F2D12CB44B5500625669 /* assignment_17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = assignment_17.cpp; sourceTree = "<group>"; };
+		2E69F2D82CB4517A00625669 /* assignment_18.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = assignment_18.cpp; sourceTree = "<group>"; };
+		2E69F2DD2CB45BCB00625669 /* sort_functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sort_functions.cpp; sourceTree = "<group>"; };
+		2E69F2E22CB4B4F300625669 /* average_functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = average_functions.cpp; sourceTree = "<group>"; };
+		2E69F2E52CB4B57700625669 /* highest_lowest_functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = highest_lowest_functions.cpp; sourceTree = "<group>"; };
+		2E69F2E82CB4B5A600625669 /* print_functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = print_functions.cpp; sourceTree = "<group>"; };
+		2E69F2EC2CB7556E00625669 /* search_functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = search_functions.cpp; sourceTree = "<group>"; };
+		2E69F2ED2CB7556E00625669 /* search_functions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = search_functions.hpp; sourceTree = "<group>"; };
+		2E69F2F12CB75AF200625669 /* grades_analysis.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = grades_analysis.hpp; sourceTree = "<group>"; };
+		2E69F2FE2CB85FB800625669 /* compare_functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = compare_functions.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,8 @@
 		2E69F2372C86F29C00625669 = {
 			isa = PBXGroup;
 			children = (
+				2E69F2D72CB4516700625669 /* class_activity_18 */,
+				2E69F2D02CB44B4200625669 /* class_activity_17 */,
 				2E69F2CA2CB447F000625669 /* class_activity_16 */,
 				2E69F2B82CAC9DCB00625669 /* project1 */,
 				2E69F2B22CA3F76900625669 /* class_activity_15 */,
@@ -261,9 +279,33 @@
 		2E69F2CA2CB447F000625669 /* class_activity_16 */ = {
 			isa = PBXGroup;
 			children = (
-				2E69F2CB2CB4480900625669 /* assignment_16.cpp */,
+				2E69F2CB2CB4480900625669 /* main.cpp */,
+				2E69F2FE2CB85FB800625669 /* compare_functions.cpp */,
+				2E69F2DD2CB45BCB00625669 /* sort_functions.cpp */,
+				2E69F2E22CB4B4F300625669 /* average_functions.cpp */,
+				2E69F2E52CB4B57700625669 /* highest_lowest_functions.cpp */,
+				2E69F2E82CB4B5A600625669 /* print_functions.cpp */,
+				2E69F2F12CB75AF200625669 /* grades_analysis.hpp */,
 			);
 			path = class_activity_16;
+			sourceTree = "<group>";
+		};
+		2E69F2D02CB44B4200625669 /* class_activity_17 */ = {
+			isa = PBXGroup;
+			children = (
+				2E69F2D12CB44B5500625669 /* assignment_17.cpp */,
+				2E69F2EC2CB7556E00625669 /* search_functions.cpp */,
+				2E69F2ED2CB7556E00625669 /* search_functions.hpp */,
+			);
+			path = class_activity_17;
+			sourceTree = "<group>";
+		};
+		2E69F2D72CB4516700625669 /* class_activity_18 */ = {
+			isa = PBXGroup;
+			children = (
+				2E69F2D82CB4517A00625669 /* assignment_18.cpp */,
+			);
+			path = class_activity_18;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,7 +365,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E69F2CC2CB4480900625669 /* assignment_16.cpp in Sources */,
+				2E69F2FD2CB85EE700625669 /* grades_analysis.hpp in Sources */,
+				2E69F2FC2CB85EE400625669 /* print_functions.cpp in Sources */,
+				2E69F2FB2CB85EE100625669 /* highest_lowest_functions.cpp in Sources */,
+				2E69F2FA2CB85EDE00625669 /* average_functions.cpp in Sources */,
+				2E69F2F92CB85EDB00625669 /* sort_functions.cpp in Sources */,
+				2E69F2F82CB85ED400625669 /* main.cpp in Sources */,
+				2E69F2FF2CB85FB800625669 /* compare_functions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
