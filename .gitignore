@@ -1,0 +1,50 @@
+# Build products
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserdatad/
+
+# User-specific files
+*.xcuserdatad/
+*.xcworkspace/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcuserdata/*.xcuserdatad
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Swag files
+*.swp
+*.swo
+
+# Other
+*.dSYM
+*.ipa
+*.app
+*.apk
+*.moved-aside
+*.orig
+*.hmap
+*.pch
+
+# Xcode specific
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace/
+
+# Cocoapods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
